@@ -4,7 +4,7 @@
   "description": "Ant Design and icejs scaffold, use TypeScript.",
   "dependencies": {
     "@ant-design/icons": "^4.0.2",
-    "@ant-design/pro-list": "^1.21.77",
+    "@ant-design/pro-list": "^1.21.76",
     "antd": "4.21.2",
     "moment": "^2.24.0",
     "prop-types": "^15.5.8",

@@ -1,5 +1,5 @@
 import { Button, Drawer } from 'antd';
-import {} from '@ant-design/pro-list';
+import { ProList } from '@ant-design/pro-list';
 import { useState } from 'react';
 
 export default () => {
@@ -7,10 +7,13 @@ export default () => {
 
   return (
     <div>
-      <Button onClick={() => setVisible(true)}>Open</Button>
+      <Button onClick={() => setVisible(true)} type="primary">
+        Open
+      </Button>
       <Drawer visible={visible} onClose={() => setVisible(false)}>
         asd
       </Drawer>
+      <ProList />
     </div>
   );
 };
